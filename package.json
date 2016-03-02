@@ -1,6 +1,6 @@
 {
   "name": "pmb-postgres",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Postgres database provider for pmb.",
   "main": "index.js",
   "bin": {
