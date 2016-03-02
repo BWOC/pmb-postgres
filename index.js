@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var config = require("./config.js");
 var knex = require('knex')(config.knex);
 var pmb = require("pattern-message-broker");
