@@ -4,7 +4,7 @@
   "description": "A Postgres database provider for pmb.",
   "main": "index.js",
   "bin": {
-    "pmb-postgres" : "./index.js"
+    "pmb-postgres": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/BWOC/pmb-postgres/issues"
   },
-  "homepage": "https://github.com/BWOC/pmb-postgres#readme"
+  "homepage": "https://github.com/BWOC/pmb-postgres#readme",
+  "dependencies": {
+    "knex": "^0.10.0",
+    "pg": "^4.5.1",
+    "pmb": "0.0.1",
+    "restify": "^4.0.4"
+  }
 }
